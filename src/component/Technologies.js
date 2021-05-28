@@ -25,7 +25,7 @@ export default class extends React.Component {
   <div className="aboutdiv">
     <div className="row">
       {technologies.map((technology, i) => {    
-           return (<div className="col-lg-2 col-md-3 col-sm-4 text-center">
+           return (<div className="col-lg-2 col-md-3 col-4 text-center">
         <img src={technology} alt className="techicon" />
       </div>) 
         })}
